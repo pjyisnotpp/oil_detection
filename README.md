@@ -4,6 +4,8 @@
 修改成自己的路径，在控制台输入即可
 
 
+ultralytics.rar为改动后的ultralytics库,添加了注意力机制,增加了两个v8的yaml配置,训练时可以直接使用这个配置
+
 #yolo task=detect mode=train model=C:\Users\89597\.conda\envs\pytorch\Lib\site-packages\ultralytics\cfg\models\v8\yolov8-p2.yaml data=oil.yaml batch=4 epochs=500 imgsz=800 workers=1 device=0 lr0=0.01 lrf=0.01 augment=true
 
 
