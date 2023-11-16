@@ -1,0 +1,13 @@
+train: C:\Users\89597\Desktop\大四\数据科学应用实践\作业2\yolov83\data\train.txt
+val: C:\Users\89597\Desktop\大四\数据科学应用实践\作业2\yolov81\data\val.txt
+#test: /home/xxx/yolov8/data/test.txt
+
+# number of classes
+nc: 1
+
+# class names
+names:
+  0: oil
+#yolo task=detect mode=train model=yolov8n.pt data=oil.yaml batch=16 epochs=400 imgsz=640 workers=1 device=0 lr0=0.01 lrf=0.01 augment=true
+#yolo task=detect mode=val model=runs/detect/train4/weights/best.pt data=oil.yaml device=0 nms=true conf=0.5 imgsz=640
+#yolo task=detect mode=val model=runs/detect/train4/weights/best.pt data=oil.yaml device=0 nms=true conf=0.4 imgsz=800 最好0.847
