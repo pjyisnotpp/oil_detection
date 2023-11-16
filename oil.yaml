@@ -1,7 +1,7 @@
 train: C:\Users\89597\Desktop\大四\数据科学应用实践\作业2\yolov83\data\train.txt
 val: C:\Users\89597\Desktop\大四\数据科学应用实践\作业2\yolov81\data\val.txt
 #test: /home/xxx/yolov8/data/test.txt
-
+#需要换成自己的路径
 # number of classes
 nc: 1
 
