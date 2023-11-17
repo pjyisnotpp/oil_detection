@@ -3,7 +3,7 @@
 一些参数设置
 修改成自己的路径，在控制台输入即可
 
-结果在labels.rar中
+结果在labels.rar与pred.zip中，labels.rar为归一化标签,pred.zip为坐标标签
 
 ultralytics.rar为改动后的ultralytics库,添加了注意力机制,增加了两个v8的yaml配置,训练时可以直接使用这个配置
 
